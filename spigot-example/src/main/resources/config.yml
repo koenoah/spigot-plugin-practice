@@ -1,0 +1,7 @@
+welcome-message: "Welcome to the server!"
+max-homes: 3
+features:
+  pvp-enabled: true
+  allowed-worlds:
+    - world
+    - world_nether
