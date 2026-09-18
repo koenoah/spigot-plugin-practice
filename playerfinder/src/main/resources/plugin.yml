@@ -1,0 +1,21 @@
+name: player-finder
+version: 1.0-SNAPSHOT
+main: me.nexodus.playerfinder.PlayerFinderPlugin
+api-version: '1.20'
+description: Plugin that check a player location, and compares it.
+
+commands:
+  find:
+    description: Find player globally, defaults to find-me behavior if empty.
+    usage: /find [player]
+  findb:
+    description: Find player globally, gets the nearest block coordinate.
+    usage: /findb [player]
+  findme:
+    description: Find your own coordinates.
+    usage: [/findme can't be executed by the server]
+    aliases:
+      - find-me
+  blockd:
+    description: Extra command. Find the magnitude between player's location and looking block.
+    usage: [can't be executed by the server]
