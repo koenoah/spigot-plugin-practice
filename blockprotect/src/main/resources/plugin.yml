@@ -1,0 +1,14 @@
+name: block-protect
+version: 1.0-SNAPSHOT
+main: me.nexodus.blockprotect.BlockProtectPlugin
+api-version: '1.20'
+description: Plugin that has a toggle on players to be able to break blocks
+
+commands:
+  toggle-blockprotect:
+    description: From plugin BlockProtect. Toggles global block protection
+    usage: /toggle-blockprotect [ true | false ]
+    aliases:
+      - togbp
+      - toggle-block
+      - togblock
