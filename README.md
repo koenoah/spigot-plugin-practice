@@ -28,5 +28,10 @@ A workspace repo where I build practice plugins, test ideas, and learn the Bukki
     - Handled asynchronous tasks with `runTaskAsynchronously` to process CPU heavy without interrupting the server
     - An annoying server message that appears every 10 seconds to remind you to vote.
 
+- **Custom GUIs & Persistent Data Containers + Permission Nodes (`menuitemmanager`)**
+    - Made a custom item with custom behavior detected by a PDC identifier
+    - Inventory GUI creation.
+    - Single inventory and key creation, not multiple!
+    - Learned about permission nodes (used LuckPerms to test them)
 ---
 *More experiments soon*

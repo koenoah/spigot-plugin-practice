@@ -1,0 +1,19 @@
+name: ItemMenuManager
+version: 1.0-SNAPSHOT
+main: me.nexodus.itemmenumanager.IMenuPlugin
+api-version: '1.20'
+description: Plugin creates GUI inventories and gives custom items
+
+commands:
+  xmas-gifts:
+    usage: /xmas-gifts
+    permission: imenumanager.xmas  
+    description: Command to get the Christmas gifts of the event!
+
+permissions:
+  imenumanager.xmas:
+    description: Allows the player to access xmas gifts
+    default: op
+  imenumanager.participation.xmas:
+    description: Allows the player to claim xmas gifts based on participation (inventory open but not allowed to pick it up)
+    default: op
