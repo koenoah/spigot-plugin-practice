@@ -1,0 +1,5 @@
+name: LuckyBlocksByNex
+version: 1.0-SNAPSHOT
+main: me.nexodus.luckyblocks.LuckyBlocksPlugin
+api-version: '1.20'
+description: Plugin that adds Lucky Blocks!
