@@ -1,0 +1,10 @@
+name: ServerMessages
+version: 1.0-SNAPSHOT
+main: me.nexodus.servermessages.ServerMessages
+api-version: '1.20'
+description: Plugin that handles periodic broadcasting as well as a welcome message
+
+commands:
+  primes:
+    usage: /primes
+    description: Know how many primes are there in 10,000,000
