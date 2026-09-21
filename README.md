@@ -33,5 +33,10 @@ A workspace repo where I build practice plugins, test ideas, and learn the Bukki
     - Inventory GUI creation.
     - Single inventory and key creation, not multiple!
     - Learned about permission nodes (used LuckPerms to test them)
+
+- **Folia Support & Chunk Based Task Scheduling + Scoreboards (`folia-bounties`)**
+    - Made chunk specific tasks for Folia supported plugins using FoliaLib
+    - Learned about scoreboards and how to use them
+    - (Not an actual functioning bounties plugin, but I might actually make a dedicated polished one in the future)
 ---
 *More experiments soon*

@@ -1,0 +1,6 @@
+name: nBounties
+version: 1.0-SNAPSHOT
+main: me.nexodus.nbounties.nBountiesPlugin
+api-version: '1.20'
+description: Plugin that assigns bounties, Folia supported
+folia-supported: true
